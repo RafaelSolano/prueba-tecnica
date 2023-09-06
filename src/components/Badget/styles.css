@@ -17,3 +17,8 @@
     color: var(--badget-pink700-text);
     background-color: var(--badget-pink50-bg);
 }
+
+.green{
+    color: var(--badget-green700-text);
+    background-color: var(--badget-green50-bg);
+}

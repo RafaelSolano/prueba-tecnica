@@ -1,24 +1,29 @@
 import React from 'react'
 import "./styles.css"
 import { Badge } from '../Badget'
-export const Card = () => {
+export const Card = (props) => {
+
+  const {title, image, publishedAt, content, category, slug } =props
+  
+ 
   return (
     <>
      <div className="card">
         <figure className="card__figure">
-            <img className="card__img" src="https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""/>
+            <img className="card__img" src={image} alt={title}/>
         </figure>
-        <div>
-            <p className="card__date " >Olivia Rhy - 20 Jan 2022</p>
+        <div className='card__text-container'>
+            <p className="card__date " >Olivia Rhy {publishedAt}</p>
             <div className="card__title_container">
-                <h2 className="card__title" >Ux review Presentations</h2>
+                <h2 className="card__title" >{title}</h2>
                 <p className="card__title-icon"> --7 </p>
             </div>
             
-            <p className="card__description">How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+            <p className="card__description">{content}</p>
             <div className="card__badgets">
-               <Badge text="Design" color="pink"/>
-               <Badge text="Developers" color="indigo"/>
+               <Badge text={category} color="pink"/>
+               <Badge text={slug} color="indigo"/>
+               <Badge text={slug} color="green"/>
             </div>
 
         </div>

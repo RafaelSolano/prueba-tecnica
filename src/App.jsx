@@ -4,14 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Card } from './components/cards'
 import { Hero } from './components/Hero'
+import { AllBlogs } from './containers/AllBlogs'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
     <Hero/>
-     <Card/>
+     <AllBlogs/>
     </>
   )
 }
