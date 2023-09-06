@@ -1,0 +1,19 @@
+.badge{
+    padding: 2px 10px;
+    border-radius: 16px;
+    font-size:  14px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+
+.indigo{
+    background-color: var(--badget-indigo-bg);
+    color: var( --badget-indigo-text);
+    
+}
+
+.pink{
+    color: var(--badget-pink700-text);
+    background-color: var(--badget-pink50-bg);
+}
