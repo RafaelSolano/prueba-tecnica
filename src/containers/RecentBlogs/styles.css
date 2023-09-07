@@ -5,11 +5,7 @@
     
     
 }
-.container__card-main{
-    
-    
 
-}
 .container__card-main picture{
     
 }
@@ -20,10 +16,6 @@
     gap: 32px;
     
 }
-.container__cards-vertical{
-
-}
-
 
 @media (max-width: 1850px) {
     .recent-blogs{
@@ -49,7 +41,6 @@
     }
     
     
-    
 }
 @media (max-width: 1300px) {
     .container__cards-vertical{
@@ -60,10 +51,7 @@
     .horizontal img{
         max-width:  592px;
     }
-    .subscribe{
-        padding: 8px;
-        max-width: 450px;
-    }
+   
     
 
 }

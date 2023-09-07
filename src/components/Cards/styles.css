@@ -75,10 +75,10 @@
 
 
 .horizontal{
-    width: 1000px;
+    max-width: 1000px;
 }
 .horizontal img{
-    width: 900px;
+    max-width: 900px;
 }
 
 .vertical{
@@ -92,7 +92,7 @@
 /*cards verticales*/
 .vertical img{
     object-fit: cover;
-    width: 510px;
-    height: 400px;
+   max-width:  510px;
+    max-height: 400px;
 
 }
