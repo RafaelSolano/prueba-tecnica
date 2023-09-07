@@ -5,12 +5,12 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export const Card = (props) => {
 
-  const {title, image, publishedAt, content, category, slug } =props
+  const {title, image, publishedAt, content, category, slug, layout } =props
   
  
   return (
     <>
-     <div className="card">
+     <div className={`card ${layout}` } >
         <figure className="card__figure">
             <img className="card__img" src={image} alt={title}/>
         </figure>

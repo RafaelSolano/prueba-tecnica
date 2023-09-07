@@ -3,7 +3,7 @@
 
 .card{
     max-width: 592px;
-    height: 600px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,6 +21,7 @@
 
 }
 .card__text-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -34,10 +35,12 @@
     color: var(--badget-purple-text);
 }
 .card__title_container{
+    
     display:  flex;
     justify-content: space-between;
 }
 .card__title-icon{
+    
     font-size: 16px;
     cursor: pointer;
     color: var(--text-secondary-color);
@@ -46,7 +49,6 @@
 
 .card__title-icon:hover{
     color: var(--title-font-color);
-
 
 }
 
@@ -70,9 +72,31 @@
 }
 
 
-.card-horizontal{
-    display: flex;
-    width: 384;
-    height: 476;
+
+
+.horizontal{
+    width: 1000px;
     
+
+
+}
+.horizontal img{
+    width: 900px;
+
+}
+
+.vertical{
+    max-width: 960px;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+
+}
+
+/*cards verticales*/
+.vertical img{
+    object-fit: cover;
+    width: 510px;
+    height: 400px;
+
 }
