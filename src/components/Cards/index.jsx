@@ -1,6 +1,7 @@
 import React from 'react'
 import "./styles.css"
 import { Badge } from '../Badget'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export const Card = (props) => {
 
@@ -18,7 +19,7 @@ export const Card = (props) => {
             <div className="card__title_container">
                 <h2 className="card__title" >{title}</h2>
                 
-                <p className="card__title-icon"> </p>
+                <a className="card__title-icon"> <FaExternalLinkAlt/></a>
                 
             </div>
             

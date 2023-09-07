@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Card } from '../../components/cards'
 
+import { FaArrowLeft, FaArrowRight, } from 'react-icons/fa';
 import './styles.css'
 
 
@@ -22,8 +23,6 @@ export const AllBlogs = () => {
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);
             });
-
-
 
 
     }, [])
@@ -63,8 +62,8 @@ const BackPagination = ()=>{
                     ))
                 }
                  <div className='pagination'>
-                <button className='pagination-btn' onClick={()=> BackPagination() }> {"<-Back"} </button>
-                <button className='pagination-btn' onClick={()=> NextPagination() }> {"Next ->"} </button>
+                <button className='pagination-btn' onClick={()=> BackPagination() }> <FaArrowLeft/> Back </button>
+                <button className='pagination-btn' onClick={()=> NextPagination() }> Next <FaArrowRight/></button>
 
             </div>
 
