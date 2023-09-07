@@ -2,3 +2,34 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    
+    --whithe-font-color: #FFFFFF;
+    --btn-bg-color:  #7F56D9;
+    --title-font-color: #101828;
+    --text-secondary-color: #667085;
+
+    --badget-indigo-bg: #EEF4FF;
+    --badget-indigo-text:#3538CD;
+
+    --badget-purple-bg:#F9F5FF;
+    --badget-purple-text: #6941C6;
+
+    --badget-pink50-bg: #FDF2FA;
+    --badget-pink700-text: #C11574;
+    
+    --badget-green50-bg: #ECFDF3;
+    --badget-green700-text:#027A48;
+
+    --font-bold: 'Inter';
+    --font-light: 'Inter';
+
+ }
+ 
+ body{
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 1920px;
+    font-family: 'Inter', sans-serif;
+    padding: 12px;
+ }

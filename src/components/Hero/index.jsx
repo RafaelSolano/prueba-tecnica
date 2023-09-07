@@ -18,7 +18,10 @@ export const Hero = () => {
                         <input className="subscribe__input" type="email" name="" id="" placeholder=" Enter your email" />
                         <p className="subscribe__form-info">We care about your data in our  <a class="subscribe__link_privacy" href="#">privacy policy</a></p>
                         <button className="subscribe__btn" type="submit"> Subscribe</button>
+
                     </form>
+                    <p className="subscribe__form-info-mobile">We care about your data in our  <a class="subscribe__link_privacy" href="#">privacy policy</a></p>
+
                    
 
                 </div>

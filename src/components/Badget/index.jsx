@@ -1,4 +1,3 @@
-import React, { cloneElement } from 'react'
 import "./styles.css"
 export const Badge = ({text, color}) => {
     
