@@ -90,6 +90,7 @@
     color: var(--text-secondary-color);
 }
 @media (min-width: 720px) {
+    
     .subscribe__form{
         flex-direction: row;
     }

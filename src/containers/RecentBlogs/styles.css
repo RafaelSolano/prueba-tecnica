@@ -25,10 +25,45 @@
 }
 
 
-@media (max-width: 1650px) {
+@media (max-width: 1850px) {
     .recent-blogs{
         grid-template-columns: 100%
-    };
+    }
+    .container__cards-vertical{
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        
+    }
+    
+    .vertical{
+        max-width: 592px;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    
+    }
+    .vertical img{
+        max-width: 592px;
+
+    }
     
     
+    
+}
+@media (max-width: 1300px) {
+    .container__cards-vertical{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .horizontal img{
+        max-width:  592px;
+    }
+    .subscribe{
+        padding: 8px;
+        max-width: 450px;
+    }
+    
+
 }
