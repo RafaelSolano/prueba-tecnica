@@ -1,5 +1,5 @@
 
-# Solucion prueba tecnica
+# Solucion prueba técnica
 
 
 
