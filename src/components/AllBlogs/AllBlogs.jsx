@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Card } from '../../components/cards'
+import { Card } from '../cards'
 
 import { FaArrowLeft, FaArrowRight, } from 'react-icons/fa';
 import './styles.css'
