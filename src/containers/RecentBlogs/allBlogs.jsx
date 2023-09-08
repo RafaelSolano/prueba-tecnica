@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Card } from '../../components/cards'
 
 import './styles.css'
+import { Card } from '../../components/cards'
 
 const API = "https://jsonplaceholder.org/posts"
 export const RecentBlogs = () => {
